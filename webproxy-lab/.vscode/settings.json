@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.h": "c"
+  },
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+  "C_Cpp.default.compilerPath": "C:/MinGW/bin/gcc.exe",
+  "C_Cpp.default.includePath": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/echo",
+    "${workspaceFolder}/tiny",
+    "${workspaceFolder}/tiny/cgi-bin"
+  ]
+}

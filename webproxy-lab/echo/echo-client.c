@@ -1,7 +1,7 @@
 #include "../csapp.h"
 
 int main(int argc, char **argv) {
-    // 클라이언트 소켓의 파일 드시크립터
+    // 클라이언트 소켓의 파일 디스크립터
     int clientfd;
 
     // 데이터를 잠깐 저장하는 버퍼
@@ -20,10 +20,13 @@ int main(int argc, char **argv) {
 
     // 사용자 입력 한 줄을 보내고, 서버가 돌려준 한 줄을 출력
     while (Fgets(buf, MAXLINE, stdin) != NULL) {
+
         // 입력한 문장을 서버로 전송
         Rio_writen(clientfd, buf, strlen(buf));
+
         // 클라이언트가 응답을 읽음
         Rio_readlineb(&rio, buf, MAXLINE);
+        
         // 화면에 출력
         Fputs(buf, stdout);
     }

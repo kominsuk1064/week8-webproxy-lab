@@ -1,0 +1,32 @@
+[
+  {
+    "directory": "C:/Users/kms10/Desktop/Crafton Jungle/WEEK8/week8-webproxy-lab/webproxy-lab",
+    "command": "gcc -g -Wall -c csapp.c",
+    "file": "csapp.c"
+  },
+  {
+    "directory": "C:/Users/kms10/Desktop/Crafton Jungle/WEEK8/week8-webproxy-lab/webproxy-lab",
+    "command": "gcc -g -Wall -c proxy.c",
+    "file": "proxy.c"
+  },
+  {
+    "directory": "C:/Users/kms10/Desktop/Crafton Jungle/WEEK8/week8-webproxy-lab/webproxy-lab/echo",
+    "command": "gcc -g -Wall -I.. -c echo-client.c",
+    "file": "echo-client.c"
+  },
+  {
+    "directory": "C:/Users/kms10/Desktop/Crafton Jungle/WEEK8/week8-webproxy-lab/webproxy-lab/echo",
+    "command": "gcc -g -Wall -I.. -c echo-server.c",
+    "file": "echo-server.c"
+  },
+  {
+    "directory": "C:/Users/kms10/Desktop/Crafton Jungle/WEEK8/week8-webproxy-lab/webproxy-lab/tiny",
+    "command": "gcc -g -Wall -I.. -c tiny.c",
+    "file": "tiny.c"
+  },
+  {
+    "directory": "C:/Users/kms10/Desktop/Crafton Jungle/WEEK8/week8-webproxy-lab/webproxy-lab/tiny/cgi-bin",
+    "command": "gcc -g -Wall -I../.. -c adder.c",
+    "file": "adder.c"
+  }
+]
